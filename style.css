@@ -70,3 +70,62 @@ button:active{
 div {
     display: flex;
 }
+
+
+@media only screen and (max-width: 769px) {
+img{
+    width: 300px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+h2{
+    margin: 20, 0, 20, 0px;
+}
+.input-min{
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.button{
+  margin: 0;
+}
+@media only screen and (max-width: 380px){
+    img{
+        width: 250px;
+        margin: 0;
+    }
+    h2{
+        margin: 2, 0, 2, 0px;
+    }
+    .inputs{
+        margin: 0;
+    }
+
+    button{
+        margin-top: 0,5;
+    }
+}
+@media only screen and (max-width: 368px){
+    input{
+        width: 280px;
+    }
+    button{
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 321px){
+    input{
+        width: 250px;
+    }
+
+    button{
+        width: 250px;
+    }
+}
+
+}
+
